@@ -1,0 +1,100 @@
+body {
+    background-color:#c0a16c;
+    border-radius: 25px;
+    border: 2px solid #020312;
+    padding: 20px; 
+    width: 1450px;
+    height: 1430px; 
+  }
+  
+  .sticky{
+      position:sticky;
+      top:0px;
+      text-align: center;
+      font-size: large;
+      background-color:#080716;
+      color:antiquewhite;
+  }
+  
+  h2{
+      
+      color:rgb(18, 12, 2);
+      font-variant: small-caps;
+      margin-left:5px;
+      display:inline-flex;
+  }
+  #tab{
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+  }
+  
+  p{
+      line-height: 1.8;
+      margin-left:10px;
+      
+  }
+ td img{
+      
+      width: 180px;
+      height:200px;
+      border-radius: 20%;
+      margin:20px;
+    
+  } 
+  #det {
+    line-height: 1;
+    margin-right: 20px;
+
+  }
+
+  #box{
+      margin-left:20px;
+      line-height:1.5;
+  
+  }
+  #box b{
+      font:georgia;
+      letter-spacing: 1px;
+      text-decoration:wavy;
+  }
+  #exp{
+      margin-left:20px;
+      line-height:1.5;
+  
+  }
+  #exp b{
+      margin-left:10px;
+      
+      
+  }
+  #ref{
+      line-height:1;
+  
+  }
+  #ref b{
+      font:georgia;
+      letter-spacing: 1px;
+      text-decoration:wavy;
+  }
+  a:hover {
+      color:red;
+  }
+  li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 1;
+    line-height:1.6;
+    margin-top: auto;
+    
+    
+  }
+  a:link{
+      color:black;
+      background-color:transparent;
+      text-decoration:none;
+  }
+  a:visited {
+      color: rgb(236, 160, 61);
+      background-color: transparent;
+      text-decoration: none;
+  }
