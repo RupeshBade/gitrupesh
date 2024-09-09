@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* 
+        LET
+        CONS
+        VAR
+        1.
+
+        let,var - variables
+        const - constant
+        2.life
+             let,const = block scope
+             var global
+        3.
+            let/const = cannot redeclared
+            var - can be redeclared
+        4.
+            let/const/var - can be redeclared as let/const in different blocks
+            let/const cannot de redeclared as var in different blocks
+        */
+       let a=5;
+       var b="hello";
+       const c='abc';
+       document.write("<br>a=",a);
+       document.write("<br>b=",b);
+       document.write("<br>c=",c);
+
+       a="HI THERE"
+       document.write("<br>a=",a);
+       b=999
+       document.write("<br>b=",b);
+    //    c='abc' not allowed
+       document.write("<br>c=",c);
+       {
+        let a='hello world';
+       document.write("<br>a=",a);
+       const c="1111"
+       document.write("<br>c=",c);
+       var b='zzz'
+       document.write("<br>b=",b);
+       }
+       document.write("<br>a=",a);
+       document.write("<br>b=",b);
+       document.write("<br>c=",c);
+       
+
+
+      
+
+    </script>
+    
+</body>
+</html>

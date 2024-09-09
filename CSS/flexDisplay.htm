@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX</title>
+    <style> 
+    .item{
+        height: 200px;
+        width: 200px;
+        background-color: rgb(12, 231, 45);
+    }
+    .container{
+        height: 500px;
+        width: 100%;
+        background-color: rgb(31, 7, 249);
+        display: flex;
+        flex-wrap: wrap;
+        /*  justify-content: left,right,center
+         justify-content: space-around
+          justify-content: space-between*/
+        justify-content: space-evenly;
+        /* flex-direction: column; */
+        align-content: space-evenly;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <!-- <span style="height:400px;">CLICK HERE</span> -->
+        <span style="background-color:yellow">CLICK ME</span>
+        <div class="item">3</div>
+        <a href="" style="background-color:rgb(201, 217, 142);">CLick me</a>
+        <div class="item">4</div>
+        <button>YETA THICHNUS</button>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+
+
+    </div>
+    
+</body>
+</html>

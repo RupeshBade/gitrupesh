@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .class1 {
+            background-color: rgb(58, 50, 173);
+            width: 550px; 
+            height: 350px; 
+            position:relative;
+            margin: 100px auto; 
+            padding: 20px; 
+            box-sizing:content-box; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+        }
+
+        .image {
+            width: 90%; 
+            height: auto; 
+            max-height: 90%; 
+            object-fit: cover; 
+        }
+
+        .arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 30px;
+            height: 30px;
+            background-color: yellow;
+            color: black;
+            text-align: center;
+            line-height: 30px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .arrow-left {
+            left: 10px; 
+        }
+
+        .arrow-right {
+            right: 10px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="class1">
+        <img src="abc.jpg" alt="Image" class="image">
+        <div class="arrow arrow-left"><</div>
+        <div class="arrow arrow-right">></div>
+    </div>
+</body>
+</html>  

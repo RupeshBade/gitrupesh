@@ -1,0 +1,32 @@
+h1{
+    background-color: blueviolet;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+ .myh1{
+            color:rgb(2, 16, 28);
+            background-color: rgb(235, 225, 225);
+        }
+        #secondh1{
+            color:rgb(86, 88, 88);
+            background-color:rgb(81, 72, 211);
+        }
+        input[type='text']{
+            background-color: rgb(35, 11, 69);
+        }
+          input[required]{
+            color: rgb(172, 44, 125);
+            background-color: rgb(122, 36, 209);
+        }
+          input[type='email']{
+            background-color: rgb(30, 46, 98);
+        }
+        button[submit]{
+            color: rgb(17, 181, 42);
+            background-color: rgb(199, 232, 10);
+        }
+          button[cancel]{
+            color: rgb(29, 139, 229);
+            background-color: rgb(212, 141, 218);
+        }
